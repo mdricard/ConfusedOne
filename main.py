@@ -5,6 +5,8 @@ x = [2.2, 3.3, 4.4, 5.5]
 def print_list():
     # Use a breakpoint in the code line below to debug your script.
     print(x)  # Press Ctrl+F8 to toggle the breakpoint.
+    print('max: ', max(x))
+    print('min: ', min(x))
 
 
 # Press the green button in the gutter to run the script.
