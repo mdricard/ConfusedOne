@@ -1,12 +1,17 @@
-# This is a sample Python script.
+import statistics
+import numpy as np
 
-x = [2.2, 3.3, 4.4, 5.5]
+x = [0.0, 1.0, 2.0, 3.0, 4.0]
+y = np.square(x)
+y3 = np.power(x, 3)
 
 def print_list():
     # Use a breakpoint in the code line below to debug your script.
     print(x)  # Press Ctrl+F8 to toggle the breakpoint.
     print('max: ', max(x))
     print('min: ', min(x))
+    print('mean is: ', statistics.mean(x))
+    print('sd is: ', statistics.stdev(x))
 
 
 # Press the green button in the gutter to run the script.
